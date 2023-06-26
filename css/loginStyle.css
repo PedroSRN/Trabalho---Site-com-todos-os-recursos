@@ -1,0 +1,40 @@
+/*login*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin:  auto;
+    margin-top: 150px;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    background-color: grey;
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .container input[type="text"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .container button:hover {
+    background-color: #45a049;
+  }
